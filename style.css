@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url(bg.jpg);
+  color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff22;
+  padding: 150px;
+  border-radius: 50px;
+  background: linear-gradient(120deg, #2980b9, #da6d1a);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #34495e;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .container {
+    padding: 15px;
+  }
+}
